@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: Helvetica, Arial, sans-serif !important;
+    font-size: 15px;
+}
+
+body {
+    background-image: url(https://static.chotot.com/storage/banner/theme_5tot_v3.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.all {
+    width: 100%;
+    heigth: auto;
+
+}
+
+
+.menu {
+    background: #ffba00;
+    width: 100%;
+    heigth: 200px;
+}
+
+.menu_up {
+    width: 100%;
+    height: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu_up ul {
+    list-style: none;
+    margin-top: 0
+
+}
+
+.menu_up ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu_up ul li a {
+    text-decoration: none;
+
+}
+
+.jpg {
+    height: 25px;
+    vertical-align: middle
+}
+
+.menu_down {
+    height: 50px;
+    width: 100%;
+}
+
+.search {
+
+}
+
+.search input {
+    width: 500px;
+    height: 35px;
+    float: left;
+}
+
+.search button img {
+    width: 20px;
+    height: auto;
+
+}
+
+.search button {;
+    width: 35px;
+    cursor: pointer;
+    float: left;
+    height: 35px;
+    background: #ffffff;
+}
+
+.search button:hover {
+    background-color: red;
+}
+
+.avt1 h4 {
+    font-size: 20px;
+}
+
+
+/*Menu top*/
+.menu_up, .menu_down, .content {
+    max-width: 936px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.link {
+    float: right;
+}
+
+.logo_img {
+    height: 35px;
+}
+
+.link_ul svg {
+    width: 16px;
+    height: 16px;
+}
+
+.link_ul a {
+    color: #000;
+}
+
+.link_ul a:hover {
+    opacity: 0.6;
+    background: transparent;
+}
+
+
+/*Menu down*/
+.search, .menu_down_action {
+    float: left;
+}
+
+.search {
+    width: 65%;
+}
+
+.search input {
+    width: calc(100% - 65px);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search button {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.menu_down_link {
+    text-decoration: none;
+    width: 17.5%;
+
+}
+
+.menu_down_action {
+    width: 17.5%;
+}
+
+.appWrapper-Header-icon {
+    width: 17px;
+    height: 17px;
+}
+
+.menu_down_action--posted {
+    text-transform: uppercase;
+}
+
+a.menu_down_link.menu_down_link--text {
+    color: #222222;
+}
+
+a.menu_down_link.menu_down_link--text1 {
+    color: #222222;
+}
+
+a.menu_down_link.menu_down_link--text2 {
+    color: #ffffff;
+}
+
+.menu_down_action {
+    float: right;
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    cursor: pointer;
+    text-align: right;
+}
+
+b1358qut.w-bold {
+    font-weight: bold;
+
+}
+
+.b1358qut.r-normal {
+    border-radius: 4px;
+}
+
+.b1358qut.accent {
+    color: #FFFFFF;
+    background-color: #FE9900;
+    border-color: #FE9900;
+}
+
+.b1358qut, .b1358qut.medium {
+    font-size: 0.875rem;
+    line-height: 1;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+/*Content*/
+.content {
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0;
+}
+
+.avt1 {
+    width: 100%;
+    padding: 10px;
+}
+
+.avt1 img {
+    width: calc(100% - 20px);
+    border-radius: 5px;
+
+}
+
+.avt1:nth-child(4n + 1) {
+    padding-left: 0;
+}

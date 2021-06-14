@@ -1,0 +1,359 @@
+
+@font-face {
+    font-display: swap;
+    font-family: OCR A Std;
+    src: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/cb14165cac0923899a1d112382edc8ef.eot);
+    src: local("OCR A Std"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/fd2622718d9af0e62af689d71132b8aa.woff) format("woff"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/78fbe3734c909300864ea46818d26643.ttf) format("truetype"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/89dbe49c3f752520e00f096965d4a11b.svg#svgFontName) format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Neuzeit Grotesk Bold;
+    src: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/e33e039e3931f99245e9f373107b10bd.eot);
+    src: local("Neuzeit Grotesk Bold"),local("NeuzeitGro-Bol"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/e33e039e3931f99245e9f373107b10bd.eot#iefix) format("embedded-opentype"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/6f64fdfb0f322d17d2241c606a4f1aba.woff) format("woff"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/05f2d190143c21f047d7ec834cc6f15a.ttf) format("truetype"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/80e36568c10e1d8bbca9e52ec72093b5.svg#NeuzeitGro-Bol) format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Roboto;
+    src: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/f1bcf0f64a201912072b3597bdbf269b.eot);
+    src: local("Roboto Light"),local("Roboto-Light"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/8dc942c71385e7509b87af5d07f3db78.woff) format("woff"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/c248e1508ed79ef03adf0260317acc33.ttf) format("truetype"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/22b00e9ebe4fb931e1969e81af9b3b77.svg#Roboto-Light) format("svg");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Roboto;
+    src: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5edb75fadfbc53d7745c4c85046781f7.eot);
+    src: local("Roboto"),local("Roboto-Regular"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/770a8fca674a3550e241a6de7fa82d8b.woff) format("woff"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/10952ea0fbd7cb93977fad8128712d87.ttf) format("truetype"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/530bb210634462ee86def85cac06cd98.svg#Roboto-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Roboto;
+    src: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/37f419871727f019c788ddf132dca114.eot);
+    src: local("Roboto Bold"),local("Roboto-Bold"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/8bd7856b64b4313341ebfbc0136c9d74.woff) format("woff"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/69c061b7c23590e75a8806c4ed465be4.ttf) format("truetype"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/e68a8399887dea81b6f6f236b74c2e66.svg#Roboto-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Roboto;
+    src: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/f4df501fdaf4863dc4e07e1eb19af8f8.eot);
+    src: local("Roboto Medium"),local("Roboto-Medium"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/eb797abfa6a5cca2463e423c07c4f6ea.woff) format("woff"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/ad148b1c1dd7fb964d14f7c4c547c1b4.ttf) format("truetype"),url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b9511d3bde226fd11da07e3bb26e4b7c.svg#Roboto-Medium) format("svg");
+    font-weight: 500;
+    font-style: normal
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 1903px;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    height: 600px;
+    background: wheat;
+}
+
+.footer {
+    width: 100%;
+    height: 830px;
+    background: violet;
+}
+
+/*HEADER*/
+.heading_link {
+    width: 85px;
+    height: 16px;
+    text-decoration: none;
+}
+
+.heading {
+    width: 1200px;
+    height: 33px;
+
+}
+
+.heading_text {
+    color: #222;
+    font-size: 1.5rem;
+}
+
+.heading_left {
+    width: 289px;
+    height: 33px;
+
+
+}
+
+.heading_logo {
+    fill: #ee4d2d;
+    margin-top: 20px;
+
+}
+
+.heading, .heading_left, .heading_logo {
+    /*align-items: center;*/
+    display: flex;
+
+}
+
+
+._3d2_4f {
+    height: 2.625rem;
+    margin-top: -.75rem;
+    margin-right: -1.125rem;
+}
+
+._3XB6zw {
+    fill: #ee4d2d;
+}
+
+.icon-shopee-logo {
+    width: 11.875rem;
+}
+
+
+/*Body*/
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+    font-size: .875rem;
+}
+
+
+/*Header*/
+.header {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 5.25rem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.06);
+}
+.form_header {
+    margin: 15px auto;
+    font-size: 1.25rem;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.header_left {
+    flex: 1 1 auto;
+}
+
+.header_logo_icon > svg {
+    height: 42px;
+    fill: #ee4d2d;
+    margin-top: -12px;
+}
+
+a.header_left_logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+span.header_logo_text {
+    color: #222;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+a.header_right_help {
+    color: #ee4d2d;
+    text-decoration: none;
+}
+
+/*Content*/
+.content {
+    background: rgb(238, 77, 45);
+}
+
+.inner_content {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background: rgb(238, 77, 45) url(https://cf.shopee.vn/file/7666e5c7427f98a8bd1102ffea426afd) no-repeat center center;
+    max-width: 1040px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form {
+
+    border-radius: .25rem;
+    background: #fff;
+    padding: 20px;
+    width: 397px;
+}
+.form-content{
+    margin-left: 20px;
+}
+
+.form_content_login_button {
+    cursor: pointer;
+    width: 100%;
+    background: #ee4d2d;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 40px;
+    /*box-shadow: 0 1px 1px rgb(0 0 0 / 9%);*/
+    border-radius: .125rem;
+}
+
+
+input.form_content_users_text {
+    padding: 12px;
+    /* border: none; */
+    border: 1px solid rgba(0, 0, 0, .14);
+    border-radius: 2px;
+    /*box-shadow: inset 0 2px 0 rgb(0 0 0 /2%);*/
+    width: calc(100% - 24px);
+    outline: none;
+}
+
+.form_content_users, .form_content_password {
+    margin-bottom: 30px;
+    /* width: 100%; */
+}
+
+
+.form_content_forgot-password {
+    margin: 10px auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.form_content_forgot-link {
+    color: #05a;
+    font-size: .75rem;
+    text-decoration: none;
+}
+
+.note {
+    padding-bottom: 14px;
+}
+
+.note-line {
+    height: 1px;
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex: 1;
+    background-color: #dbdbdb;
+}
+
+
+.button-form {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 0 2px;
+    border-radius: 2px;
+    width: 100%;
+    height: 2.5rem;
+    font-size: .875rem;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 9%);
+}
+
+.form_content_social {
+    display: flex;
+    margin: 5px;
+}
+
+.button-logo-facebook {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.button-logo-google {
+    background: #4285f4;
+    color: #fff;
+}
+
+.button-logo-apple {
+    background-color: #000;
+    color: #fff;
+}
+/*FOOTER*/
+.form_footer {
+    display: flex;
+    margin-top: 25px;
+
+
+    justify-content: center;
+}
+
+span.form-footer-question {
+    padding-right: 10px;
+
+
+}
+
+a.form-footer_login {
+    color: #EE4D2D;
+    text-decoration: none;
+}
+
+.form_content_social_button + .form_content_social_button {
+    margin-left: 15px;
+}
+
+.form_content_social_button_logo-facebook {
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a9e27c0….png);
+}
+
+.form_content_social_button > span {
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: .75rem;
+
+    justify-content: center;
+}
+
+.form_content_social_button > div {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin-right: 10px;
+}
+.note>div{
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+}
+.note-line{
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    -webkit-box-flex: 1;
+
+    flex: 1;
+}
+button.form_content_login_button:hover{
+    opacity:0.7;
+}
+.note-span{
+    color: #ccc;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+
+
+

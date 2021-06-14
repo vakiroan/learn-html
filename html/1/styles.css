@@ -1,0 +1,8 @@
+.menu{
+
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu li{
+    display: inline;
+}
