@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+/*Anddroid*/
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Browser,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Browser,
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Sitename,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Sitename {
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Wrapper,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Wrapper {
+    font-size: 13px;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Wrapper p,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Wrapper p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Buttons,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Buttons {
+    display: flex;
+    padding: 0;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__ButtonLeft,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__ButtonLeft {
+    flex: 1 1 auto;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Buttons a,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Buttons a {
+    color: rgb(99, 115, 129);
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 9px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__ButtonsRight a,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__ButtonsRight a {
+    font-weight: 400;
+}
+
+.Polaris-PushNotification--android,
+.Polaris-PushNotification--windows8 {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px;
+    width: 360px;
+    min-height: 90px;
+    padding: 15px 21px;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Wrapper,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Wrapper {
+    display: flex;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-SiteLogo img,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-SiteLogo img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Text,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Text {
+    flex: 1 1 auto;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Wrapper,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Domain,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Domain {
+    display: flex;
+    align-items: center;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__Body-Sitename,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body-Sitename {
+    flex: 1 1 auto;
+}
+
+.Polaris-PushNotification--android .Polaris-PushNotification__ButtonsRight .Polaris-PushNotification__Button,
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__ButtonsRight .Polaris-PushNotification__Button {
+    margin-right: 0;
+}
+
+/*Window8*/
+
+.Polaris-PushNotification.Polaris-PushNotification--windows8 {
+    padding: 0;
+}
+
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Body {
+    padding: 15px 21px;
+}
+
+.Polaris-PushNotification--windows8 .Polaris-PushNotification__Buttons {
+    padding: 11px 13px;
+    background: rgb(240, 240, 241);
+}
+
+/*MacOS*/
+.Polaris-PushNotification--MacOS {
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px;
+    align-self: center;
+    margin-right: 10px;
+    width: 333px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(238, 239, 238);
+    border-color: rgb(191, 191, 191);
+}
+
+.Polaris-PushNotification--MacOS .Polaris-PushNotification_Body {
+    margin: 0 10px;
+    align-content: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 10px 10px 0;
+
+}
+
+.Polaris-PushNotification--MacOS .Polaris-PushNotification_Browser-image {
+    width: 30px;
+    height: 30px;
+}
+
+.Polaris-PushNotification--MacOS .Polaris-PushNotification_Sitelogo img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.Polaris-PushNotification--MacOS .Polaris-PushNotification_Sitelogo {
+    display: flex;
+    align-items: center;
+}
+
+.Polaris-PushNotification--MacOS .Polaris-PushNotification_domain {
+    font-size: 11px;
+    line-height: 11px;
+    color: rgb(58, 57, 58);
+    font-weight: 600;
+    padding: 2px 0 2px 2px;
+    margin: 0;
+
+}
+
+.Polaris-PushNotification--MacOS .Polaris-PushNotification_title {
+    margin: 0 0 3px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+
+.Polaris-PushNotification--MacOS .Polaris-PushNotification_message {
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: normal;
+    white-space: nowrap;
+    padding-top: 2px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.Polaris-PushNotification--MacOS .Polaris-PushNotification_BrowserIcon {
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 0;
+
+}
+
+/*COLLAPSE*/
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse {
+
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px;
+    align-self: center;
+    margin-right: 10px;
+    width: 333px;
+    border-color: rgb(191, 191, 191);
+    background: rgb(243, 237, 239);
+    padding: 10px;
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse .Polaris-PushNotification-Heading {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse .Polaris-PushNotification-Heading-Browerswrapper-Browsericon {
+    width: 18px;
+    height: 18px;
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse .Polaris-PushNotification-Body-SiteLogo-Logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse .Polaris-PushNotification-Heading-Browerswrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse p.Polaris-PushNotification-Heading-Browerswrapper-Browsertext {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: -0.066em;
+    margin-left: 5px;
+    color: rgb(99, 115, 129);
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse p.Polaris-PushNotification-Heading-Browerswrapper-Browsertime {
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.004em;
+    color: rgb(52, 57, 70);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse p.Polaris-PushNotification-Heading-Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(52, 57, 70);
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse p.Polaris-PushNotification-Heading-Message {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(52, 57, 70);
+    font-size: 13px;
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse .Polaris-PushNotification-Heading-Content {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--collapse .Polaris-PushNotification-Body {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*EXPAND*/
+.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand {
+
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px;
+    align-self: center;
+    margin-right: 10px;
+    width: 352px;
+    border-color: rgb(191, 191, 191);
+    background: rgb(243, 237, 239);
+
+}
+.Polaris-PushNotification-Heading{
+    padding:10px;
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Heading {
+    display: flex;
+    align-items: center;
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Heading-Wrapper-Browsericon {
+    width: 18px;
+    height: 18px;
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Heading-Wrapper-Browsertext {
+    font-size: 13px;
+    line-height: 126%;
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: rgb(99, 115, 129);
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Heading-Wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Container-Logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Heading-Actions {
+    font-weight: 500;
+    font-size: 11px;
+    color: rgb(52, 57, 70);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Heading-Action {
+    /*display: inline-block;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px 5px;
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Footer-Item {
+    border-bottom: 1px solid rgb(210, 220, 231);
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: -0.016em;
+    color: rgb(52, 57, 70);
+    padding-top: 9px;
+    height: 35px;
+}
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Description-Title{
+    margin:0;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 140%;
+    width: 100%;
+    color: rgb(52, 57, 70);
+}
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Description-Content{
+    margin:0;
+    font-size: 13px;
+    line-height: 140%;
+    color: rgb(52, 57, 70);
+}
+
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Description-Message{
+    margin:0;
+    font-size: 13px;
+    line-height: 126%;
+    color: rgb(52, 57, 70);
+
+}
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Footer{
+    padding-top:20px;
+}
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Description{
+    padding: 10px;
+}
+.Polaris-PushNotification.Polaris-PushNotification--big-sur-and-newer.Polaris-PushNotification--expand .Polaris-PushNotification-Container{
+    height: 256px;
+    background: rgb(217, 220, 223);
+}
+
